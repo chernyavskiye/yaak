@@ -1,0 +1,13 @@
+type: folder
+model: folder
+id: fl_6sSWuMXq8z
+createdAt: 2026-04-09T15:12:03.498718800
+updatedAt: 2026-04-09T15:12:03.498719100
+workspaceId: wk_VUvbhN4hEK
+folderId: null
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: commit
+sortPriority: 4.0

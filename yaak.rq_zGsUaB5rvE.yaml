@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_zGsUaB5rvE
+createdAt: 2026-04-09T15:12:03.496408
+updatedAt: 2026-04-09T15:12:03.496408200
+workspaceId: wk_VUvbhN4hEK
+folderId: fl_6sSWuMXq8z
+authentication:
+  password: password
+  username: your_test_login
+authenticationType: basic
+body:
+  text: "{\r\n    \"order\":{\r\n        \"amount\": 4000,\r\n        \"prepaidAmount\":0\r\n    }\r\n}"
+bodyType: application/json
+description: стандартный commit
+headers:
+- enabled: true
+  name: X-Correlation-ID
+  value: test_order_23_01_01
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: commit
+sortPriority: 5.0
+url: https://api-sand.podeli.ru/partners/v1/orders/test_order_23_01_01/commit
+urlParameters: []

@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_NyNAhg4Cm4
+createdAt: 2026-04-09T15:12:03.498225600
+updatedAt: 2026-04-09T15:12:03.498225700
+workspaceId: wk_VUvbhN4hEK
+folderId: fl_TuAeQxGJsX
+authentication:
+  password: password
+  username: your_test_login
+authenticationType: basic
+body:
+  text: "{\r\n    \"sum\": 0\r\n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: X-Correlation-ID
+  value: test_order_23_01_01
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: calculate
+sortPriority: 16.0
+url: https://api-sand.podeli.ru/partners/v1/orders/calculate
+urlParameters: []

@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_9n5xLwQAo8
+createdAt: 2026-04-09T15:12:03.497645
+updatedAt: 2026-04-09T15:12:03.497645100
+workspaceId: wk_VUvbhN4hEK
+folderId: fl_8mbsojharT
+authentication:
+  password: password
+  username: your_test_login
+authenticationType: basic
+body:
+  text: "{\r\n    \"order\": {\r\n        \"id\": \"test_order_23_01_01\",\r\n        \"refund\": {\r\n            \"id\": \"22\",\r\n            \"initiator\": \"client\",\r\n            \"items\": [\r\n                {\r\n                    \"refundedSum\": 400,\r\n                    \"description\": \"aaa\"\r\n                }\r\n            ]\r\n        }\r\n    }\r\n}"
+bodyType: application/json
+description: 'refund with sum '
+headers:
+- enabled: true
+  name: X-Correlation-ID
+  value: test_order_23_01_01
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: refund_sum(with_descr)
+sortPriority: 12.0
+url: https://api-sand.podeli.ru/partners/v1/orders/test_order_23_01_01/refund
+urlParameters: []

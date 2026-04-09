@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_J2M9AeriRB
+createdAt: 2026-04-09T15:12:03.496891600
+updatedAt: 2026-04-09T15:12:03.496891800
+workspaceId: wk_VUvbhN4hEK
+folderId: fl_8BWbvHNpta
+authentication:
+  password: password
+  username: your_test_login
+authenticationType: basic
+body:
+  text: ''
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: X-Correlation-ID
+  value: test_order_23_01_01
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: GET
+name: Info
+sortPriority: 8.0
+url: https://api-sand.podeli.ru/partners/v1/orders/test_order_23_01_01/info
+urlParameters: []

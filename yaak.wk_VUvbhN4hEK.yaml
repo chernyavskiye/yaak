@@ -1,0 +1,15 @@
+type: workspace
+model: workspace
+id: wk_VUvbhN4hEK
+createdAt: 2026-04-09T15:12:03.493184900
+updatedAt: 2026-04-09T15:12:03.493185700
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: api-sandbox
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
+settingDnsOverrides: []

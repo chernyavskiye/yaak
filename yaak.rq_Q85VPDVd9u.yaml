@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_Q85VPDVd9u
+createdAt: 2026-04-09T15:12:03.495039200
+updatedAt: 2026-04-09T15:12:03.495039700
+workspaceId: wk_VUvbhN4hEK
+folderId: fl_CcBdWFjcLf
+authentication:
+  password: password
+  username: your_test_login
+authenticationType: basic
+body:
+  text: "{\r\n    \"order\": {\r\n        \"id\": \"test_order_23_01_01\",\r\n        \"amount\": 4000,\r\n        \"prepaidAmount\": 0,\r\n        \"isTwoStagePayment\": false,\r\n        \"items\": [\r\n            {\r\n                \"id\": \"230\",\r\n                \"article\": \"05M3818R0105RU\",\r\n                \"name\": \"Духи Chanel\",\r\n                \"quantity\": 2,\r\n                \"amount\": 2000,\r\n                \"prepaidAmount\": 0\r\n            }\r\n        ],\r\n        \"deliveryMethod\": \"Mall\",\r\n        \"courierId\": \"ttr_234\",\r\n        \"recipient\": \"Курьерский Иван Иванович\",\r\n        \"phoneRecipient\": \"89033646259\",\r\n        \"phoneRecipientMd5\": \"10c71716a4e97b19b150faa40d334616\",\r\n        \"addressDelivery\": \"ул. Первая 5, кв. 121, корпус, этаж\",\r\n        \"comment\": \"12345\",\r\n        \"isTwoStagePayment\": true\r\n        },\r\n    \"clientInfo\": \r\n        {\r\n            \"firstName\": \"тестовый\",\r\n            \"lastName\": \"тест\",\r\n            \"middleName\": \"тест\",\r\n            \"birthdate\": \"1990-01-01\",\r\n            \"phone\": \"79111999988\",\r\n            \"email\": \"test@mail.ru\"\r\n        },\r\n    \"notificationUrl\": \"https://webhook.site\",\r\n    \"failUrl\": \"failUrl.com\",\r\n    \"successUrl\": \"successUrl.com\"\r\n}"
+bodyType: application/json
+description: содержит полную информацию по клиенту
+headers:
+- enabled: true
+  name: X-Correlation-ID
+  value: test_order_23_01_01
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: create(with_clientinfo)
+sortPriority: 1.0
+url: https://api-sand.podeli.ru/partners/v1/orders/create
+urlParameters: []

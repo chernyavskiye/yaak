@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_HheBnAKkfh
+createdAt: 2026-04-09T15:12:03.497922300
+updatedAt: 2026-04-09T15:12:03.497922400
+workspaceId: wk_VUvbhN4hEK
+folderId: fl_8aAu7JPtoG
+authentication:
+  password: password
+  username: your_test_login
+authenticationType: basic
+body:
+  text: "{\r\n    \"cancellationInitiator\":\"shop\"\r\n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: X-Correlation-ID
+  value: test_order_23_01_01
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: cancel
+sortPriority: 14.0
+url: https://api-sand.podeli.ru/partners/v1/orders/test_order_23_01_01/cancel
+urlParameters: []
