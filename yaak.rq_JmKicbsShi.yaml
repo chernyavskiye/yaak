@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_JmKicbsShi
 createdAt: 2026-04-09T15:12:03.496091700
-updatedAt: 2026-04-09T15:12:03.496091900
+updatedAt: 2026-04-13T12:31:41.454730800
 workspaceId: wk_VUvbhN4hEK
 folderId: fl_CcBdWFjcLf
 authentication:
@@ -10,7 +10,36 @@ authentication:
   username: your_test_login
 authenticationType: basic
 body:
-  text: "{\r\n    \"order\": {\r\n        \"id\": \"test_order_23_01_01\",\r\n        \"amount\": 4000,\r\n        \"isTwoStagePayment\": false,\r\n        \"prepaidAmount\": 0,\r\n        \"items\": [\r\n            {\r\n                \"id\": \"e6ea83c3-357f-44d3-8275-dbb1ff1a4c66\",\r\n                \"article\": null,\r\n                \"name\": \"Мат для боулдеринга Camp Minido\",\r\n                \"amount\": 2000,\r\n                \"quantity\": 2,\r\n                \"prepaidAmount\": 0\r\n            }\r\n        ],\r\n        \"latitude\": 59.941630,\r\n        \"longitude\": 30.418515,\r\n        \"mall\": \"ТРЦ Охта Молл\",\r\n        \"address\": \"ул. Первая 5, кв. 121, корпус, этаж\",\r\n        \"cashRegisterNumber\": \"1234567890\",\r\n        \"cashierNumber\": \"0987654321\",\r\n        \"comment\": \"12345\",\r\n        \"isTwoStagePayment\": false\r\n    },\r\n    \"clientInfo\": {\r\n        \"id\": \"ODIw\"\r\n    }\r\n}"
+  text: |-
+    {
+        "order": {
+            "id": "test_order_23_01_01",
+            "amount": 4000,
+            "isTwoStagePayment": false,
+            "prepaidAmount": 0,
+            "items": [
+                {
+                    "id": "e6ea83c3-357f-44d3-8275-dbb1ff1a4c66",
+                    "article": null,
+                    "name": "Мат для боулдеринга Camp Minido",
+                    "amount": 2000,
+                    "quantity": 2,
+                    "prepaidAmount": 0
+                }
+            ],
+            "latitude": 59.941630,
+            "longitude": 30.418515,
+            "mall": "ТРЦ Охта Молл",
+            "address": "ул. Первая 5, кв. 121, корпус, этаж",
+            "cashRegisterNumber": "1234567890",
+            "cashierNumber": "0987654321",
+            "comment": "12345",
+            "isTwoStagePayment": false
+        },
+        "clientInfo": {
+            "id": "ODIw"
+        }
+    }
 bodyType: application/json
 description: ''
 headers:

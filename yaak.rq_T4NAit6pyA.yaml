@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_T4NAit6pyA
 createdAt: 2026-04-09T15:12:03.495614200
-updatedAt: 2026-04-09T15:32:24.511800400
+updatedAt: 2026-04-13T12:31:36.401429800
 workspaceId: wk_VUvbhN4hEK
 folderId: fl_CcBdWFjcLf
 authentication:
@@ -12,7 +12,7 @@ authenticationType: basic
 body:
   text: "{\n    \"order\": {\n        \"id\": \"test_order_23_01_01\",\n        \"amount\": 4000,\n        \"prepaidAmount\": 0,\n        \"isTwoStagePayment\": false,\n        \"items\": [\n            {\n                \"id\": \"230\",\n                \"article\": \"05M3818R0105RU\",\n                \"name\": \"Духи Chanel\",\n                \"quantity\": 2,\n                \"amount\": 2000\n            }\n        ],\n        \"deliveryMethod\": \"Mall\",\n        \"courierId\": \"ttr_234\",\n        \"recipient\": \"Курьерский Иван Иванович\",\n        \"phoneRecipient\": \"89033646259\",\n        \"phoneRecipientMd5\": \"10c71716a4e97b19b150faa40d334616\",\n        \"addressDelivery\": \"ул. Первая 5, кв. 121, корпус, этаж\",\n        \"comment\": \"12345\",\n        \"isTwoStagePayment\": true\n    },\n    \"clientInfo\": \n        {\n            \"firstName\": \"тестовый\",\n            \"lastName\": \"тест\",\n            \"phone\": \"79111999988\"\n    },\n    \"notificationUrl\": \"https://webhook.site\",\n    \"failUrl\": \"failUrl.com\",\n    \"successUrl\": \"successUrl.com\"\n}"
 bodyType: application/json
-description: содержит только телефон клиента
+description: содержит только телефон клиента YAAAAAK
 headers:
 - enabled: true
   name: X-Correlation-ID
